@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - getting_started
 
 jobs:
   build-and-deploy:
