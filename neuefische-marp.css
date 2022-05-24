@@ -24,6 +24,31 @@ section {
     background: var(--color-white);
     color: var(--color-granite);
     font-family: "Content-Font", sans-serif;
+    padding: 10px 65px 65px 65px;
+}
+
+section h1 {
+    font-family: "Header-Font", sans-serif;
+    font-size: 50pt;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-family: "Content-Font", sans-serif;
+    font-size: 17pt;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+
+section ol,
+section ul {
+    font-family: "Content-Font", sans-serif;
+    color: var(--color-nemo);
+    font-size: 17pt;
+    line-height: 37px;
+    font-weight: 400;
+    padding-left: 30px;
 }
 
 section.big-headline {
@@ -43,6 +68,7 @@ section.big-headline h6 {
     font-weight: 700;
     font-size: 90pt;
     vertical-align: bottom;
+    line-height: 1.1em;
 }
 
 section.big-headline::before {
@@ -89,6 +115,7 @@ section.intro-slide h6 {
     vertical-align: bottom;
     position: fixed;
     bottom: 65px;
+    line-height: 1em;
 }
 
 section.intro-slide::before {
