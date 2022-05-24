@@ -1,5 +1,7 @@
 :root {
     --color-granite: #252629;
+    --color-nemo: #FF4A11;
+    --color-white: #FFFFFF;
     --logo_fisch_nemo: url("resources/images/logo_fisch_nemo.svg");
     --logo_fisch_white: url("resources/images/logo_fisch_white.svg");
     --logo_neuefische_granite: url("resources/images/logo_neuefische_granite.svg");
@@ -19,7 +21,7 @@
 }
 
 section {
-    background: white;
+    background: var(--color-white);
     color: var(--color-granite);
     font-family: "Content-Font", sans-serif;
 }
@@ -48,6 +50,15 @@ section.big-headline::before {
     position: fixed;
     right: 65px;
     bottom: 65px;
+}
+
+section.big-headline.nemo {
+    background: var(--color-nemo);
+    color: var(--color-white);
+}
+
+section.big-headline.nemo::before {
+    content: var(--logo_fisch_white);
 }
 
 section.intro-slide {

@@ -3,6 +3,12 @@ Stylesheet für "marp" (das Tool, das für Präsentationen in Bootcamps, Infoses
 
 ---
 
+<!-- class: big-headline nemo -->
+
+Hier steht eine große Headline
+
+---
+
 <!-- class: big-headline -->
 
 Hier steht eine große Headline
