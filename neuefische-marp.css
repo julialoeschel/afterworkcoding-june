@@ -6,22 +6,32 @@
 
 :root {
     --color-granite: #252629;
+    --logo-granite: url("resources/logo/logo_neuefische_granite.svg");
+    --logo-nemo: url("resources/logo/logo_neuefische_nemo.svg");
+    --logo-white: url("resources/logo/logo_neuefische_white.svg");
 }
 
 @font-face {
     font-family: 'Header-Font';
-    src: url('fonts/PolySans-Median-web/PolySans-Median.woff2') format('woff2');
+    src: url('resources/fonts/PolySans-Median-web/PolySans-Median.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Content-Font';
-    src: url('fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('f');
+    src: url('resources/fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('f');
 }
 
 section {
     background: white;
     color: var(--color-granite);
     font-family: "Content-Font", sans-serif;
+}
+
+section::before {
+    content: var(--logo-granite);
+    position: absolute;
+    right: 5%;
+    top: 5%;
 }
 
 h1, h2, h3, h4, h5, h6 {
