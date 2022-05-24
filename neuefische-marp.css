@@ -1,14 +1,11 @@
-/**
-* @theme neuefische
-* @size 4:3 960px 720px
-* @size 16:9 1440px 900px
-*/
-
 :root {
     --color-granite: #252629;
-    --logo-granite: url("resources/logo/logo_neuefische_granite.svg");
-    --logo-nemo: url("resources/logo/logo_neuefische_nemo.svg");
-    --logo-white: url("resources/logo/logo_neuefische_white.svg");
+    --logo_fisch_nemo: url("resources/images/logo_fisch_nemo.svg");
+    --logo_fisch_white: url("resources/images/logo_fisch_white.svg");
+    --logo_neuefische_granite: url("resources/images/logo_neuefische_granite.svg");
+    --logo_neuefische_nemo: url("resources/images/logo_neuefische_nemo.svg");
+    --logo_neuefische_white: url("resources/images/logo_neuefische_white.svg");
+    --pfeil_granite: url("resources/images/pfeil_granite.svg");
 }
 
 @font-face {
@@ -27,13 +24,70 @@ section {
     font-family: "Content-Font", sans-serif;
 }
 
-section::before {
-    content: var(--logo-granite);
-    position: absolute;
-    right: 5%;
-    top: 5%;
+section.big-headline {
+    padding: 65px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+section.big-headline p,
+section.big-headline h1,
+section.big-headline h2,
+section.big-headline h3,
+section.big-headline h4,
+section.big-headline h5,
+section.big-headline h6 {
+    padding: 0;
+    margin: 0;
     font-family: "Header-Font", sans-serif;
+    font-weight: 700;
+    font-size: 90pt;
+    vertical-align: bottom;
+}
+
+section.big-headline::before {
+    content: var(--logo_fisch_nemo);
+    position: fixed;
+    right: 65px;
+    bottom: 65px;
+}
+
+section.intro-slide {
+    padding: 65px;
+}
+
+section.intro-slide p,
+section.intro-slide h1,
+section.intro-slide h2,
+section.intro-slide h3,
+section.intro-slide h4,
+section.intro-slide h5,
+section.intro-slide h6 {
+    padding: 0;
+    margin: 0;
+    font-family: "Header-Font", sans-serif;
+    font-weight: 700;
+    font-size: 120pt;
+    vertical-align: bottom;
+    position: fixed;
+    bottom: 65px;
+}
+
+section.intro-slide::before {
+    content: var(--logo_neuefische_nemo);
+    position: fixed;
+    right: 65px;
+    top: 65px;
+}
+
+section.intro-slide p::after,
+section.intro-slide h1::after,
+section.intro-slide h2::after,
+section.intro-slide h3::after,
+section.intro-slide h4::after,
+section.intro-slide h5::after,
+section.intro-slide h6::after {
+    content: var(--pfeil_granite);
+    position: fixed;
+    right: 40px;
+    bottom: 10px;
+    transform:scale(0.7);
 }
