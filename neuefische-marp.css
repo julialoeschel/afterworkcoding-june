@@ -8,7 +8,22 @@
     --color-granite: #252629;
 }
 
+@font-face {
+    font-family: 'Header-Font';
+    src: url('fonts/PolySans-Median-web/PolySans-Median.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Content-Font';
+    src: url('fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('f');
+}
+
 section {
     background: white;
     color: var(--color-granite);
+    font-family: "Content-Font", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Header-Font", sans-serif;
 }
