@@ -1,0 +1,14 @@
+/**
+* @theme neuefische
+* @size 4:3 960px 720px
+* @size 16:9 1440px 900px
+*/
+
+:root {
+    --color-granite: #252629;
+}
+
+section {
+    background: white;
+    color: var(--color-granite);
+}

@@ -1,0 +1,15 @@
+{
+  "name": "marp-corporate-design",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "marp --html -sw --theme neuefische-marp.css ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuefische/marp-corporate-design.git"
+  },
+  "homepage": "https://github.com/neuefische/marp-corporate-design#readme",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^1.7.2"
+  }
+}
