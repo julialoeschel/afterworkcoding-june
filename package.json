@@ -2,8 +2,8 @@
   "name": "marp-corporate-design",
   "version": "1.0.0",
   "scripts": {
-    "start": "marp --html --theme neuefische-marp.css --input-dir . --server --watch",
-    "build": "marp --html --theme neuefische-marp.css --input-dir . --output dist"
+    "start": "marp --html --theme neuefische.css --input-dir . --output . --server --watch",
+    "build": "marp --html --theme neuefische.css --input-dir . --output ."
   },
   "repository": {
     "type": "git",

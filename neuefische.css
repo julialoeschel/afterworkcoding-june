@@ -2,23 +2,23 @@
     --color-granite: #252629;
     --color-nemo: #FF4A11;
     --color-white: #FFFFFF;
-    --logo_fisch_nemo: url("resources/images/logo_fisch_nemo.svg");
-    --logo_fisch_white: url("resources/images/logo_fisch_white.svg");
-    --logo_neuefische_granite: url("resources/images/logo_neuefische_granite.svg");
-    --logo_neuefische_nemo: url("resources/images/logo_neuefische_nemo.svg");
-    --logo_neuefische_white: url("resources/images/logo_neuefische_white.svg");
-    --pfeil_granite: url("resources/images/pfeil_granite.svg");
-    --pfeil_white: url("resources/images/pfeil_white.svg");
+    --logo_fisch_nemo: url("marp/images/logo_fisch_nemo.svg");
+    --logo_fisch_white: url("marp/images/logo_fisch_white.svg");
+    --logo_neuefische_granite: url("marp/images/logo_neuefische_granite.svg");
+    --logo_neuefische_nemo: url("marp/images/logo_neuefische_nemo.svg");
+    --logo_neuefische_white: url("marp/images/logo_neuefische_white.svg");
+    --pfeil_granite: url("marp/images/pfeil_granite.svg");
+    --pfeil_white: url("marp/images/pfeil_white.svg");
 }
 
 @font-face {
     font-family: 'Header-Font';
-    src: url('resources/fonts/PolySans-Median-web/PolySans-Median.woff2') format('woff2');
+    src: url('marp/fonts/PolySans-Median-web/PolySans-Median.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Content-Font';
-    src: url('resources/fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('f');
+    src: url('marp/fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('f');
 }
 
 section {
