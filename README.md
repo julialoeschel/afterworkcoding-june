@@ -9,6 +9,12 @@ Hier steht eine große Headline
 
 ---
 
+<!-- class: big-headline granite -->
+
+Hier steht eine große Headline
+
+---
+
 <!-- class: big-headline -->
 
 Hier steht eine große Headline

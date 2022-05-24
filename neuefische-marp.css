@@ -52,13 +52,22 @@ section.big-headline::before {
     bottom: 65px;
 }
 
+section.big-headline.granite,
 section.big-headline.nemo {
-    background: var(--color-nemo);
     color: var(--color-white);
 }
 
+section.big-headline.granite::before,
 section.big-headline.nemo::before {
     content: var(--logo_fisch_white);
+}
+
+section.big-headline.granite {
+    background: var(--color-granite);
+}
+
+section.big-headline.nemo {
+    background: var(--color-nemo);
 }
 
 section.intro-slide {
@@ -100,5 +109,5 @@ section.intro-slide h6::after {
     position: fixed;
     right: 40px;
     bottom: 10px;
-    transform:scale(0.7);
+    transform: scale(0.7);
 }
