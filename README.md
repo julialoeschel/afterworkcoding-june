@@ -33,6 +33,18 @@ Hier steht eine große Headline
 
 ---
 
+<!-- class: intro-slide nemo -->
+
+Neue Kurse
+
+---
+
+<!-- class: intro-slide granite -->
+
+Neue Kurse
+
+---
+
 <!-- class: intro-slide -->
 
 Unser Programm

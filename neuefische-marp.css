@@ -8,6 +8,7 @@
     --logo_neuefische_nemo: url("resources/images/logo_neuefische_nemo.svg");
     --logo_neuefische_white: url("resources/images/logo_neuefische_white.svg");
     --pfeil_granite: url("resources/images/pfeil_granite.svg");
+    --pfeil_white: url("resources/images/pfeil_white.svg");
 }
 
 @font-face {
@@ -137,4 +138,39 @@ section.intro-slide h6::after {
     right: 40px;
     bottom: 10px;
     transform: scale(0.7);
+}
+
+section.intro-slide.granite,
+section.intro-slide.nemo {
+    color: var(--color-white);
+}
+
+section.intro-slide.granite {
+    background: var(--color-granite);
+}
+
+section.intro-slide.nemo {
+    background: var(--color-nemo);
+}
+
+section.intro-slide.granite::before,
+section.intro-slide.nemo::before {
+    content: var(--logo_neuefische_white);
+}
+
+section.intro-slide.granite p::after,
+section.intro-slide.granite h1::after,
+section.intro-slide.granite h2::after,
+section.intro-slide.granite h3::after,
+section.intro-slide.granite h4::after,
+section.intro-slide.granite h5::after,
+section.intro-slide.granite h6::after,
+section.intro-slide.nemo p::after,
+section.intro-slide.nemo h1::after,
+section.intro-slide.nemo h2::after,
+section.intro-slide.nemo h3::after,
+section.intro-slide.nemo h4::after,
+section.intro-slide.nemo h5::after,
+section.intro-slide.nemo h6::after {
+    content: var(--pfeil_white);
 }
