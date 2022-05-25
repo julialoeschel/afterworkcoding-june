@@ -126,15 +126,17 @@ section.intro-slide h3,
 section.intro-slide h4,
 section.intro-slide h5,
 section.intro-slide h6 {
-    padding: 0;
+    padding: 0 20px 0 0;
     margin: 0;
     font-family: "Header-Font", sans-serif;
     font-weight: 700;
     font-size: 120pt;
     vertical-align: bottom;
     position: fixed;
-    bottom: 65px;
+    right: 0;
+    bottom: 0;
     line-height: 1em;
+    width: calc(100% - 65px);
 }
 
 section.intro-slide::before {
@@ -152,9 +154,9 @@ section.intro-slide h4::after,
 section.intro-slide h5::after,
 section.intro-slide h6::after {
     content: var(--pfeil_granite);
-    position: fixed;
-    right: 40px;
-    bottom: 10px;
+    float: right;
+    position: relative;
+    top: -40px;
     transform: scale(0.7);
 }
 
