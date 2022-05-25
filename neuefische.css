@@ -52,6 +52,24 @@ section ul {
     padding-left: 30px;
 }
 
+section a {
+    color: var(--color-nemo);
+    text-decoration: none;
+}
+
+section a:after {
+    content: " 🔗";
+    color: transparent;
+    text-shadow: 0 0 var(--color-nemo);
+    font-size: 0.5em;
+    position: relative;
+    bottom: 0.2em;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
 section.big-headline {
     padding: 65px;
 }
