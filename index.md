@@ -1,40 +1,38 @@
-<!-- class: big-headline nemo -->
+<!-- _class: big-headline nemo -->
 
 Hier steht eine große Headline
 
 ---
 
-<!-- class: big-headline granite -->
+<!-- _class: big-headline granite -->
 
 Hier steht eine große Headline
 
 ---
 
-<!-- class: big-headline -->
+<!-- _class: big-headline -->
 
 Hier steht eine große Headline
 
 ---
 
-<!-- class: intro-slide nemo -->
+<!-- _class: intro-slide nemo -->
 
 Neue Kurse
 
 ---
 
-<!-- class: intro-slide granite -->
+<!-- _class: intro-slide granite -->
 
 Neue Kurse
 
 ---
 
-<!-- class: intro-slide -->
+<!-- _class: intro-slide -->
 
 Unser Programm
 
 ---
-
-<!-- class: none -->
 
 # Hier steht eine Headline
 
