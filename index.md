@@ -52,3 +52,13 @@ Die Enzyklopädie [Wikipedia](https://www.wikipedia.org/) ist heute unser Beispi
 
 * [Wikipedia Deutsch](https://de.wikipedia.org/wiki/Wikipedia:Hauptseite)
 * [Wikipedia Englisch](https://en.wikipedia.org/wiki/Main_Page)
+
+---
+
+<!-- class: image-profile -->
+
+## Bild links ist austauschbar
+
+Hier steht eine Subline
+
+![Foto](marp/staff/kollege.jpeg)

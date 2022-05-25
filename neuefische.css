@@ -2,6 +2,7 @@
     --color-granite: #252629;
     --color-nemo: #FF4A11;
     --color-white: #FFFFFF;
+    --background-pattern-egg-gray: url("/marp/images/background_pattern_egg_gray.svg");
     --logo_fisch_nemo: url("/marp/images/logo_fisch_nemo.svg");
     --logo_fisch_white: url("/marp/images/logo_fisch_white.svg");
     --logo_neuefische_granite: url("/marp/images/logo_neuefische_granite.svg");
@@ -184,4 +185,40 @@ section.intro-slide.nemo h4::after,
 section.intro-slide.nemo h5::after,
 section.intro-slide.nemo h6::after {
     content: var(--pfeil_white);
+}
+
+section.image-profile img {
+    position: fixed;
+    /* according to google slides template 1066px * 1600px is preferred image ratio */
+    left: 120px;
+    top: 70px;
+    max-height: 550px;
+    max-width: 400px;
+}
+
+section.image-profile {
+    background-image: var(--background-pattern-egg-gray);
+    background-size: 600px 600px;
+    background-position: 20px 70px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+section.image-profile h1,
+section.image-profile h2,
+section.image-profile h3,
+section.image-profile h4,
+section.image-profile h5,
+section.image-profile h6 {
+    margin-top: 70px;
+    margin-left: 570px;
+    font-weight: 700;
+    font-size: 50pt;
+    margin-bottom: 30px;
+}
+
+section.image-profile p {
+    margin-left: 570px;
 }
