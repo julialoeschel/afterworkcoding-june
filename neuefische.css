@@ -66,10 +66,6 @@ section a:after {
     bottom: 0.2em;
 }
 
-section a:hover {
-    text-decoration: underline;
-}
-
 section.big-headline {
     padding: 65px;
 }
