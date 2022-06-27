@@ -1,69 +1,79 @@
 :root {
-    --color-granite: #252629;
-    --color-nemo: #FF4A11;
-    --color-white: #FFFFFF;
-    --background-pattern-egg-gray: url("/marp/images/background_pattern_egg_gray.svg");
-    --logo_fisch_nemo: url("/marp/images/logo_fisch_nemo.svg");
-    --logo_fisch_white: url("/marp/images/logo_fisch_white.svg");
-    --logo_neuefische_granite: url("/marp/images/logo_neuefische_granite.svg");
-    --logo_neuefische_nemo: url("/marp/images/logo_neuefische_nemo.svg");
-    --logo_neuefische_white: url("/marp/images/logo_neuefische_white.svg");
-    --pfeil_granite: url("/marp/images/pfeil_granite.svg");
-    --pfeil_white: url("/marp/images/pfeil_white.svg");
+  --color-granite: #252629;
+  --color-nemo: #ff4a11;
+  --color-white: #ffffff;
+  --background-pattern-egg-gray: url("/marp/images/background_pattern_egg_gray.svg");
+  --logo_fisch_nemo: url("/marp/images/logo_fisch_nemo.svg");
+  --logo_fisch_white: url("/marp/images/logo_fisch_white.svg");
+  --logo_neuefische_granite: url("/marp/images/logo_neuefische_granite.svg");
+  --logo_neuefische_nemo: url("/marp/images/logo_neuefische_nemo.svg");
+  --logo_neuefische_white: url("/marp/images/logo_neuefische_white.svg");
+  --pfeil_granite: url("/marp/images/pfeil_granite.svg");
+  --pfeil_white: url("/marp/images/pfeil_white.svg");
 }
 
 @font-face {
-    font-family: 'Coperate-Font';
-    src: url('marp/fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('f');
+  font-family: "Coperate-Font";
+  src: url("marp/fonts/Inter/Inter-VariableFont_slnt,wght.ttf") format("f");
 }
 
 section {
-    background: var(--color-white);
-    color: var(--color-granite);
-    font-family: "Coperate-Font", sans-serif;
-    padding: 10px 65px 65px 65px;
+  background: var(--color-white);
+  color: var(--color-granite);
+  font-family: "Coperate-Font", sans-serif;
+  padding: 10px 65px 65px 65px;
 }
 
 section h1 {
-    font-family: "Coperate-Font", sans-serif;
-    font-size: 50pt;
-    font-weight: 700;
-    margin-bottom: 20px;
+  font-family: "Coperate-Font", sans-serif;
+  font-size: 50pt;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 section p {
-    font-family: "Coperate-Font", sans-serif;
-    font-size: 17pt;
-    line-height: 1.4em;
-    font-weight: 400;
+  font-family: "Coperate-Font", sans-serif;
+  font-size: 17pt;
+  line-height: 1.4em;
+  font-weight: 400;
 }
 
 section ol,
 section ul {
-    font-family: "Coperate-Font", sans-serif;
-    color: var(--color-nemo);
-    font-size: 17pt;
-    line-height: 37px;
-    font-weight: 400;
-    padding-left: 30px;
+  font-family: "Coperate-Font", sans-serif;
+  color: var(--color-granite);
+  font-size: 20pt;
+  line-height: 37px;
+  font-weight: 400;
+  padding-left: 30px;
+  margin-top: 50px;
 }
 
 section a {
-    color: var(--color-nemo);
-    text-decoration: none;
+  color: var(--color-nemo);
+  text-decoration: none;
+}
+
+section span {
+  color: var(--color-nemo);
+}
+
+section.imgcenter img {
+  height: 400px;
+  margin: 50px 100px;
 }
 
 section a:after {
-    content: " 🔗";
-    color: transparent;
-    text-shadow: 0 0 var(--color-nemo);
-    font-size: 0.5em;
-    position: relative;
-    bottom: 0.2em;
+  content: " 🔗";
+  color: transparent;
+  text-shadow: 0 0 var(--color-nemo);
+  font-size: 0.5em;
+  position: relative;
+  bottom: 0.2em;
 }
 
 section.big-headline {
-    padding: 65px;
+  padding: 65px;
 }
 
 section.big-headline p,
@@ -73,42 +83,46 @@ section.big-headline h3,
 section.big-headline h4,
 section.big-headline h5,
 section.big-headline h6 {
-    padding: 0;
-    margin: 0;
-    font-family: "Coperate-Font", sans-serif;
-    font-weight: 700;
-    font-size: 90pt;
-    vertical-align: bottom;
-    line-height: 1.1em;
+  padding: 0;
+  margin: 0;
+  font-family: "Coperate-Font", sans-serif;
+  font-weight: 700;
+  font-size: 90pt;
+  vertical-align: bottom;
+  line-height: 1.1em;
 }
 
 section.big-headline::before {
-    content: var(--logo_fisch_nemo);
-    position: fixed;
-    right: 65px;
-    bottom: 65px;
+  content: var(--logo_fisch_nemo);
+  position: fixed;
+  right: 65px;
+  bottom: 65px;
 }
 
 section.big-headline.granite,
 section.big-headline.nemo {
-    color: var(--color-white);
+  color: var(--color-white);
 }
 
 section.big-headline.granite::before,
 section.big-headline.nemo::before {
-    content: var(--logo_fisch_white);
+  content: var(--logo_fisch_white);
 }
 
 section.big-headline.granite {
-    background: var(--color-granite);
+  background: var(--color-granite);
 }
 
 section.big-headline.nemo {
-    background: var(--color-nemo);
+  background: var(--color-nemo);
 }
 
 section.intro-slide {
-    padding: 65px;
+  padding: 65px;
+}
+
+section.intro-slide span {
+  font-size: 0.6em;
 }
 
 section.intro-slide p,
@@ -118,24 +132,28 @@ section.intro-slide h3,
 section.intro-slide h4,
 section.intro-slide h5,
 section.intro-slide h6 {
-    padding: 0 20px 0 0;
-    margin: 0;
-    font-family: "Coperate-Font", sans-serif;
-    font-weight: 700;
-    font-size: 120pt;
-    vertical-align: bottom;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    line-height: 1em;
-    width: calc(100% - 65px);
+  padding: 0 20px 0 0;
+  margin: 0;
+  font-family: "Coperate-Font", sans-serif;
+  font-weight: 700;
+  font-size: 120pt;
+  vertical-align: bottom;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  line-height: 1em;
+  width: calc(100% - 65px);
+}
+
+section.intro-slide span {
+  color: white;
 }
 
 section.intro-slide::before {
-    content: var(--logo_neuefische_nemo);
-    position: fixed;
-    right: 65px;
-    top: 65px;
+  content: var(--logo_neuefische_nemo);
+  position: fixed;
+  right: 65px;
+  top: 65px;
 }
 
 section.intro-slide p::after,
@@ -145,29 +163,29 @@ section.intro-slide h3::after,
 section.intro-slide h4::after,
 section.intro-slide h5::after,
 section.intro-slide h6::after {
-    content: var(--pfeil_granite);
-    float: right;
-    position: relative;
-    top: -40px;
-    transform: scale(0.7);
+  content: var(--pfeil_granite);
+  float: right;
+  position: relative;
+  top: -40px;
+  transform: scale(0.7);
 }
 
 section.intro-slide.granite,
 section.intro-slide.nemo {
-    color: var(--color-white);
+  color: var(--color-white);
 }
 
 section.intro-slide.granite {
-    background: var(--color-granite);
+  background: var(--color-granite);
 }
 
 section.intro-slide.nemo {
-    background: var(--color-nemo);
+  background: var(--color-nemo);
 }
 
 section.intro-slide.granite::before,
 section.intro-slide.nemo::before {
-    content: var(--logo_neuefische_white);
+  content: var(--logo_neuefische_white);
 }
 
 section.intro-slide.granite p::after,
@@ -184,26 +202,25 @@ section.intro-slide.nemo h3::after,
 section.intro-slide.nemo h4::after,
 section.intro-slide.nemo h5::after,
 section.intro-slide.nemo h6::after {
-    content: var(--pfeil_white);
+  content: var(--pfeil_white);
 }
 
 section.image-profile img {
-    position: fixed;
-    /* according to google slides template 1066px * 1600px is preferred image ratio */
-    left: 120px;
-    top: 70px;
-    max-height: 550px;
-    max-width: 400px;
+  max-height: 450px;
+  max-width: 400px;
+  border-radius: 50%;
 }
 
 section.image-profile {
-    background-image: var(--background-pattern-egg-gray);
-    background-size: 600px 600px;
-    background-position: 20px 70px;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: -20px;
-    left: -20px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+section.image-profile div {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
 }
 
 section.image-profile h1,
@@ -212,13 +229,64 @@ section.image-profile h3,
 section.image-profile h4,
 section.image-profile h5,
 section.image-profile h6 {
-    margin-top: 70px;
-    margin-left: 570px;
-    font-weight: 700;
-    font-size: 50pt;
-    margin-bottom: 30px;
+  margin-top: 70px;
+  font-weight: 700;
+  font-size: 50pt;
+  margin-bottom: 30px;
 }
 
-section.image-profile p {
-    margin-left: 570px;
+section.intro span {
+  font-size: 30px;
+}
+
+section.intro ul {
+  width: 600px;
+}
+
+section.intro img {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+section.webbootcamp img {
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+section.developer img {
+  position: absolute;
+  right: 50px;
+  top: 200px;
+}
+section.developer ul {
+  width: 450px;
+}
+section.developer p {
+  font-size: 20pt;
+}
+
+section.list p {
+  font-size: 1.5em;
+}
+
+section.list {
+  background-image: var(--logo_fisch_nemo);
+
+  background-size: 200px 200px;
+  background-position: 850px 260px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+section.list span {
+  font-size: 0.8em;
+  color: var(--color-granite);
+}
+
+section.html li {
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
