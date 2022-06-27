@@ -1,64 +1,100 @@
-<!-- _class: big-headline nemo -->
-
-Hier steht eine große Headline
-
----
-
 <!-- _class: big-headline granite -->
 
-Hier steht eine große Headline
-
----
-
-<!-- _class: big-headline -->
-
-Hier steht eine große Headline
-
----
-
-<!-- _class: intro-slide nemo -->
-
-Neue Kurse
+Welcome to
+Afterwork Coding
 
 ---
 
 <!-- _class: intro-slide granite -->
 
-Neue Kurse
+<span>mit Andrea und Julia</span>
 
 ---
 
-<!-- _class: intro-slide -->
+# Was wir heute machen
 
-Unser Programm
+<span>erstellen einer virtuellen Postkarte mit HTML und CSS</span>
 
----
+- VorstellungsRunde
 
-# Hier steht eine Headline
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est elitr, sed diam nonumy eirmod tempor aliquyam erat, sed diam voluptua.
-
-* Aufzählung 01
-* Aufzählung 02
-* Aufzählung 03
-* Aufzählung 04
-* Aufzählung 05
+- What are we doing at Neuefische?
+- kleines Intro HTML und CSS
+- Coding!
 
 ---
 
-# Links
+<!-- _class: image-profile -->
 
-Die Enzyklopädie [Wikipedia](https://www.wikipedia.org/) ist heute unser Beispiel.
+## Andrea und Julia
 
-* [Wikipedia Deutsch](https://de.wikipedia.org/wiki/Wikipedia:Hauptseite)
-* [Wikipedia Englisch](https://en.wikipedia.org/wiki/Main_Page)
+Coach für Web Development bei Neuefische
+
+<div>
+<img src="./marp/staff/kollege.jpeg" alt="pic"/>
+<img src="./marp/staff/kollege.jpeg" alt="pic"/>
+</div>
 
 ---
 
-<!-- class: image-profile -->
+<!-- class: section intro-->
 
-## Bild links ist austauschbar
+# Wer ist Neue Fische?
 
-Hier steht eine Subline
+<span> neuefische - School for digital Talent</span>
 
-![Foto](marp/staff/kollege.jpeg)
+- <span>5 </span> Bootcamps (Web, Java, Data Science, Data Analytics, AWS)
+
+- mehr als <span>20 </span> Coaches
+- rund <span>100 </span> Partnerunternehmen
+- <span>4 </span> Standorte (Hamburg, Köln, München und Frankfurt + remote)
+- mehr als <span>900 </span> Absolvent:innen
+- <span>92% </span> Jobchancen am Arbeitsmarkt\*
+
+<img src="./marp/images/locations-nf.png" alt="pic" height=600/>
+
+---
+
+# Web-Development Bootcamp
+
+- <span>8 </span> Wochen Lerninhalte (HTML, CSS, JS, React, Node uvm.)
+- <span>4 </span> Wochen eigenes Abschlussprojekt
+
+---
+
+# Was ist Frontend?
+
+- Frontend = sichtbare Teile der Website /der Applikation
+  der Bereich, den der Nutzer sehen kann und mit interagieren kann
+
+- Backend = nicht sichtbare Teil, zB. Server, serverseitige Anwendungen und Datenbank
+
+---
+
+# Was macht eigentlich eine Frontend Entwicklerin ?
+
+- Webapplikation werden designtechnisch und funktional umgesetzt
+
+- Wir kümmern uns um Usability und Performance
+- das Programm muss auf allen Geräte und Bildschirmgrößen funktionieren
+
+---
+
+## was ist Web Entwicklung
+
+<img src="https://www.techsmith.com/blog/wp-content/uploads/2021/10/animated-gif-for-comparison.gif" alt="pic"/>
+
+---
+
+## HTML
+
+- wie man HTML Schreibt und was wir brauchen
+
+---
+
+## CSS
+
+- wie man css schreibt
+
+---
+
+## CODING!!!
