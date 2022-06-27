@@ -1,7 +1,7 @@
 <!-- _class: big-headline granite -->
 
 Welcome to
-Afterwork Coding
+After-Work-Coding
 
 ---
 
@@ -11,15 +11,16 @@ Afterwork Coding
 
 ---
 
-# Was wir heute machen
+# Was machen wir heute?
 
-<span>erstellen einer virtuellen Postkarte mit HTML und CSS</span>
+<!-- _class: list -->
 
-- VorstellungsRunde
+- Vorstellungsrunde
 
-- What are we doing at Neuefische?
+- Was macht **neue fische**
 - kleines Intro HTML und CSS
 - Coding!
+  <span> → eine virtuelle Postkarte mit HTML und CSS </span>
 
 ---
 
@@ -27,26 +28,28 @@ Afterwork Coding
 
 ## Andrea und Julia
 
-Coach für Web Development bei Neuefische
+Coach für Web Development bei **neue fische**
 
 <div>
-<img src="./marp/staff/kollege.jpeg" alt="pic"/>
-<img src="./marp/staff/kollege.jpeg" alt="pic"/>
+<img src="./marp/staff/../images/Andrea.png" alt="pic"/>
+<img src="./marp/staff/../images/julia_loeschel.jpg" alt="pic"/>
 </div>
 
 ---
 
 <!-- class: section intro-->
 
-# Wer ist Neue Fische?
+# Was machen wir?
 
-<span> neuefische - School for digital Talent</span>
+<span> neue fische - School and Pool for Digital Talent</span>
 
-- <span>5 </span> Bootcamps (Web, Java, Data Science, Data Analytics, AWS)
+- <span>5 </span> Bootcamps
+  (Web Development, Java Development, Data Science, Data Analytics, Cloud Development)
 
-- mehr als <span>20 </span> Coaches
-- rund <span>100 </span> Partnerunternehmen
-- <span>4 </span> Standorte (Hamburg, Köln, München und Frankfurt + remote)
+- mehr als <span>29 </span> Coaches
+- <span>71 </span> Partnerunternehmen
+- <span>5 </span> Standorte
+  (Hamburg, Köln, München, Frankfurt, Bochum und remote)
 - mehr als <span>900 </span> Absolvent:innen
 - <span>92% </span> Jobchancen am Arbeitsmarkt\*
 
@@ -54,47 +57,80 @@ Coach für Web Development bei Neuefische
 
 ---
 
-# Web-Development Bootcamp
+<!-- class: section webbootcamp-->
 
-- <span>8 </span> Wochen Lerninhalte (HTML, CSS, JS, React, Node uvm.)
+# Web Development Bootcamp
+
+- <span>8 </span> Wochen Lerninhalte
 - <span>4 </span> Wochen eigenes Abschlussprojekt
+  <img src="./marp/images/content.png" alt="content" width="500"/>
 
 ---
+
+<!-- class: section intro-->
 
 # Was ist Frontend?
 
-- Frontend = sichtbare Teile der Website /der Applikation
-  der Bereich, den der Nutzer sehen kann und mit interagieren kann
+## Frontend
 
-- Backend = nicht sichtbare Teil, zB. Server, serverseitige Anwendungen und Datenbank
+- sichtbare Teile der Website /der Applikation
+- der Bereich, den der Nutzer sehen und damit interagieren kann
+
+## Backend
+
+- nicht sichtbarer Teil, zB. Server, serverseitige Anwendungen und Datenbanken
+
+<img src="https://ih1.redbubble.net/image.691103043.8062/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg" alt="pic" height=600/>
 
 ---
 
-# Was macht eigentlich eine Frontend Entwicklerin ?
+<!-- class: section developer-->
 
-- Webapplikation werden designtechnisch und funktional umgesetzt
+# Was macht eigentlich ein:e Frontend-Entwickler:in ?
+
+- Webapplikationen werden designtechnisch und funktional umgesetzt
 
 - Wir kümmern uns um Usability und Performance
-- das Programm muss auf allen Geräte und Bildschirmgrößen funktionieren
+- das Programm muss auf allen Geräten und Bildschirmgrößen funktionieren (responsive)
+
+ <img src="https://i.pinimg.com/550x/8a/a1/9d/8aa19db191e6839f280db32737ddc717.jpg" alt="pic" height=400 >
 
 ---
 
-## was ist Web Entwicklung
+<!-- class: section imgcenter -->
+
+# Was ist Web Entwicklung?
 
 <img src="https://www.techsmith.com/blog/wp-content/uploads/2021/10/animated-gif-for-comparison.gif" alt="pic"/>
 
 ---
 
-## HTML
+# HTML - Syntax
 
-- wie man HTML Schreibt und was wir brauchen
-
----
-
-## CSS
-
-- wie man css schreibt
+<img src="./marp/images/Html.png" alt="pic"/>
 
 ---
 
-## CODING!!!
+<!-- class: section html -->
+
+# HTML - Tags für unser Projekt
+
+- `<section>`
+- `<h1>Hello world</h1>`
+- `<img src="source code" alt="smth" />`
+- `<p>Text</p>`
+- `<span> another text</span>`
+
+---
+
+<!-- class: section imgcenter -->
+
+# CSS - Syntax
+
+<img src="./marp/images/css.png" alt="pic"/>
+
+---
+
+<!-- _class: big-headline granite -->
+
+lets dive into coding!
