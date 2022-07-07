@@ -24,5 +24,5 @@ Feedback:
 Learnings:
 
 - Keine Aufnahme beim nächsten Mal - wir erhoffen uns dadurch mehr Wortmeldungen.
-- Mehr Werbung und andere Tools nutzen, um bekannt zu werden.
-- "Wie geht es weiter" Slide - Kontaktmöglichkeiten und weiterführende Informationen
+- Mehr Werbung und andere Tools nutzen, um bekannter zu werden.
+- "Wie geht es weiter" Slide mit Kontaktmöglichkeiten und weiterführenden Informationen
